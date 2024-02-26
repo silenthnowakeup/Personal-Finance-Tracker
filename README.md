@@ -21,5 +21,5 @@
 ---
 ### SonarCloud
 
-[SonarCloud](https://sonarcloud.io/summary/new_code?id=silenthnowakeup_LanguageDetect)
+[SonarCloud](https://sonarcloud.io/summary/overall?id=silenthnowakeup_Personal-Finance-Tracker)
 

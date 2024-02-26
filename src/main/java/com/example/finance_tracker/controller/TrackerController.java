@@ -13,7 +13,7 @@ public class TrackerController {
     }
 
     @GetMapping("/1")
-    public String tracker() { return trackerService.finance(1);}
+    public String tracker() { return trackerService.finance();}
 
 
 }

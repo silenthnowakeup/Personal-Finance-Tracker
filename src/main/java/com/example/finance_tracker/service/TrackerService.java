@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TrackerService {
-    public String finance(int id)
+    public String finance()
     {
         return "123.000,23$";
     }
