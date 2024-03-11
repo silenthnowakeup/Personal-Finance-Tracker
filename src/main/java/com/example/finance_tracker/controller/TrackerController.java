@@ -1,6 +1,9 @@
 package com.example.finance_tracker.controller;
 import com.example.finance_tracker.models.Transaction;
+import com.example.finance_tracker.models.TransactionCategory;
+import com.example.finance_tracker.models.User;
 import com.example.finance_tracker.service.TrackerService;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
@@ -26,12 +29,31 @@ public class TrackerController {
 
     @PostMapping("/transactions")
     public void createTransaction(@RequestParam("description") String description,
-                                  @RequestParam("amount") double amount) {
-        Transaction transaction = new Transaction();
-        transaction.setDescription(description);
-        transaction.setAmount(amount);
-        trackerService.createTransaction(transaction);
+                                  @RequestParam("amount") double amount,
+                                  @RequestParam("username") String username,
+                                  @RequestParam("category") String categoryName) {
+        User user = trackerService.getUserByUsername(username);
+
+        if (user != null) {
+            Transaction transaction = new Transaction();
+            transaction.setDescription(description);
+            transaction.setAmount(amount);
+            transaction.setUser(user);
+
+            TransactionCategory category = trackerService.getCategoryByName(categoryName);
+            if (category == null) {
+                category = new TransactionCategory();
+                category.setName(categoryName);
+                trackerService.createCategory(category);
+            }
+            transaction.setCategory(category);
+
+            trackerService.createTransaction(transaction);
+        } else {
+            throw new EntityNotFoundException("User with username " + username + " not found");
+        }
     }
+
 
     @GetMapping("/transactions/{id}")
     public Transaction getTransactionById(@PathVariable Long id) {
@@ -47,6 +69,16 @@ public class TrackerController {
     public void deleteTransaction(@PathVariable Long id) {
         trackerService.deleteTransaction(id);
     }
+
+    @PostMapping("/users")
+    public void createUser(@RequestParam("username") String username,
+                           @RequestParam("email") String email) {
+        User user = new User();
+        user.setUsername(username);
+        user.setEmail(email);
+        trackerService.createUser(user);
+    }
+
 
 }
 
