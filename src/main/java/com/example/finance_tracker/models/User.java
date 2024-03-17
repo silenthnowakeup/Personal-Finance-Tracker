@@ -21,11 +21,8 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    // Этот аннотированный метод исключает поле transactions из сериализации JSON
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private Set<Transaction> transactions = new HashSet<>();
-
-    // constructors, getters and setters
 
     public Long getId() {
         return id;
