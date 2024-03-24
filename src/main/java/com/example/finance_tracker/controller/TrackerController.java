@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 public class TrackerController {
 
@@ -60,10 +62,37 @@ public class TrackerController {
         return trackerService.getTransactionById(id);
     }
 
-    @PutMapping("/transactions/{id}")
-    public void updateTransaction(@RequestBody Transaction transaction) {
-        trackerService.updateTransaction(transaction);
+    @GetMapping("/transactions/user/{username}")
+    public List<Transaction> getTransactionsByUser(@PathVariable String username) {
+        return trackerService.findTransactionsByUserUsername(username);
     }
+
+    @PutMapping("/transactions/{id}")
+    public void updateTransaction(@PathVariable Long id, @RequestBody Transaction updatedTransaction) {
+        Transaction existingTransaction = trackerService.getTransactionById(id);
+        if (existingTransaction == null) {
+            throw new EntityNotFoundException("Transaction with ID " + id + " not found");
+        }
+
+        if (updatedTransaction.getDescription() != null) {
+            existingTransaction.setDescription(updatedTransaction.getDescription());
+        }
+
+        if (updatedTransaction.getAmount() != 0) {
+            existingTransaction.setAmount(updatedTransaction.getAmount());
+        }
+
+        if (updatedTransaction.getUser() != null) {
+            existingTransaction.setUser(updatedTransaction.getUser());
+        }
+
+        if (updatedTransaction.getCategory() != null) {
+            existingTransaction.setCategory(updatedTransaction.getCategory());
+        }
+
+        trackerService.updateTransaction(existingTransaction);
+    }
+
 
     @DeleteMapping("/transactions/{id}")
     public void deleteTransaction(@PathVariable Long id) {
@@ -77,6 +106,11 @@ public class TrackerController {
         user.setUsername(username);
         user.setEmail(email);
         trackerService.createUser(user);
+    }
+
+    @DeleteMapping("/users/{id}")
+    public void deleteUser(@PathVariable Long id) {
+        trackerService.deleteUser(id);
     }
 
 

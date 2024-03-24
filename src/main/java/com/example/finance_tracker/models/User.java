@@ -4,7 +4,6 @@ import com.example.finance_tracker.models.Transaction;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
-import jakarta.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -21,11 +20,8 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    // Этот аннотированный метод исключает поле transactions из сериализации JSON
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private Set<Transaction> transactions = new HashSet<>();
-
-    // constructors, getters and setters
 
     public Long getId() {
         return id;

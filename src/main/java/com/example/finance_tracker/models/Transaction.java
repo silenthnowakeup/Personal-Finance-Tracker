@@ -4,9 +4,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
-import java.util.HashSet;
-import java.util.Set;
-
 @Entity
 @Table(name= "transactions")
 public class Transaction {
@@ -22,12 +19,12 @@ public class Transaction {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
-    @JsonIgnore
+    @JsonIgnoreProperties({"transactions", "hibernateLazyInitializer"})
     private User user;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
-    @JsonIgnoreProperties({"transactions", "hibernateLazyInitializer"}) // Используем аннотацию для игнорирования ненужных свойств в объекте User
+    @JsonIgnoreProperties({"transactions", "hibernateLazyInitializer"})
     private TransactionCategory category;
 
     public Long getId() {
