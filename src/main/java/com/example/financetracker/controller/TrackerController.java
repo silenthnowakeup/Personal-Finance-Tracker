@@ -1,8 +1,8 @@
-package com.example.finance_tracker.controller;
-import com.example.finance_tracker.models.Transaction;
-import com.example.finance_tracker.models.TransactionCategory;
-import com.example.finance_tracker.models.User;
-import com.example.finance_tracker.service.TrackerService;
+package com.example.financetracker.controller;
+import com.example.financetracker.models.Transaction;
+import com.example.financetracker.models.TransactionCategory;
+import com.example.financetracker.models.User;
+import com.example.financetracker.service.TrackerService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +19,7 @@ public class TrackerController {
         this.trackerService = trackerService;
     }
 
-    @GetMapping(value="")
+    @GetMapping(value = "")
     public String hello() {
         return "Hello world";
     }
@@ -55,7 +55,6 @@ public class TrackerController {
             throw new EntityNotFoundException("User with username " + username + " not found");
         }
     }
-
 
     @GetMapping("/transactions/{id}")
     public Transaction getTransactionById(@PathVariable Long id) {
@@ -93,7 +92,6 @@ public class TrackerController {
         trackerService.updateTransaction(existingTransaction);
     }
 
-
     @DeleteMapping("/transactions/{id}")
     public void deleteTransaction(@PathVariable Long id) {
         trackerService.deleteTransaction(id);
@@ -110,10 +108,7 @@ public class TrackerController {
 
     @DeleteMapping("/users/{id}")
     public void deleteUser(@PathVariable Long id) {
-        trackerService.deleteUser(id);
+        trackerService.deleteUser(id); }
     }
-
-
-}
 
 

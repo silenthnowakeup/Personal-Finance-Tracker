@@ -1,4 +1,4 @@
-package com.example.finance_tracker.models;
+package com.example.financetracker.models;
 
 import jakarta.persistence.*;
 import java.util.HashSet;

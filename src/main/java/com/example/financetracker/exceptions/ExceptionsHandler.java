@@ -1,4 +1,4 @@
-package com.example.finance_tracker.exceptions;
+package com.example.financetracker.exceptions;
 
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.exception.ConstraintViolationException;
@@ -16,11 +16,12 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 @RestControllerAdvice
 @Slf4j
 public class ExceptionsHandler {
+
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     @ExceptionHandler(RuntimeException.class)
     public ErrorResponse handleInternalServerError(RuntimeException ex) {
-        log.error("error, 500 code");
-        return new ErrorResponse(ex.getMessage());
+        log.error("(500) Internal Server Error", ex);
+        return new ErrorResponse("500: Internal Server Error. Please try again later or contact support.");
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -28,21 +29,22 @@ public class ExceptionsHandler {
             MethodArgumentNotValidException.class, MissingServletRequestParameterException.class,
             ConstraintViolationException.class})
     public ErrorResponse handleBadRequestException(Exception ex) {
-        log.error("error, 400 code");
-        return new ErrorResponse("400 error, BAD REQUEST");
+        log.error("(400) Bad Request", ex);
+        return new ErrorResponse("400: Bad Request. Please check your request parameters and try again.");
     }
 
     @ResponseStatus(HttpStatus.METHOD_NOT_ALLOWED)
     @ExceptionHandler(HttpRequestMethodNotSupportedException.class)
-    public ErrorResponse handleMethodNotAllowed(Exception ex) {
-        log.error("error, 405 code");
-        return new ErrorResponse("405 error, METHOD NOT ALLOWED");
+    public ErrorResponse handleMethodNotAllowed(HttpRequestMethodNotSupportedException ex) {
+        log.error("(405) Method Not Allowed", ex);
+        return new ErrorResponse("405: Method Not Allowed. Supported methods: " + ex.getSupportedHttpMethods());
     }
+
 
     @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(NoHandlerFoundException.class)
-    public ErrorResponse handlerFoundException(Exception ex) {
-        log.error("error, 404 code");
-        return new ErrorResponse("404 error, NOT FOUND");
+    public ErrorResponse handleNotFoundException(NoHandlerFoundException ex) {
+        log.error("(404) Not Found", ex);
+        return new ErrorResponse("404: Resource Not Found. Please check the URL and try again.");
     }
 }

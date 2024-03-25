@@ -1,4 +1,4 @@
-package com.example.finance_tracker.component;
+package com.example.financetracker.component;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
@@ -26,8 +26,12 @@ public class Cache {
         return hashMap.get(key);
     }
 
-    public void removeFromCache(String key) { hashMap.remove(key); }
+    public void removeFromCache(String key) {
+        hashMap.remove(key);
+    }
 
-    public void clearCache() { hashMap.clear(); }
+    public void clearCache() {
+        hashMap.clear();
+    }
 
 }

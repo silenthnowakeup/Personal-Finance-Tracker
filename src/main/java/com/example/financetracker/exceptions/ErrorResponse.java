@@ -1,4 +1,4 @@
-package com.example.finance_tracker.exceptions;
+package com.example.financetracker.exceptions;
 
 public record ErrorResponse(String message) {
 }

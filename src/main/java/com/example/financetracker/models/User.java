@@ -1,7 +1,5 @@
-package com.example.finance_tracker.models;
+package com.example.financetracker.models;
 
-import com.example.finance_tracker.models.Transaction;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.util.HashSet;
@@ -54,6 +52,4 @@ public class User {
     public void setTransactions(Set<Transaction> transactions) {
         this.transactions = transactions;
     }
-
-
 }

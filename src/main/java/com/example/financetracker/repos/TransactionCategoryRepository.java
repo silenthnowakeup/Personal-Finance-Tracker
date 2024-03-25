@@ -1,6 +1,6 @@
-package com.example.finance_tracker.repos;
+package com.example.financetracker.repos;
 
-import com.example.finance_tracker.models.TransactionCategory;
+import com.example.financetracker.models.TransactionCategory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TransactionCategoryRepository extends JpaRepository<TransactionCategory, Long> {
