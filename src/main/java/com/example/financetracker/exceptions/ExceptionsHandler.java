@@ -40,7 +40,6 @@ public class ExceptionsHandler {
         return new ErrorResponse("405: Method Not Allowed. Supported methods: " + ex.getSupportedHttpMethods());
     }
 
-
     @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(NoHandlerFoundException.class)
     public ErrorResponse handleNotFoundException(NoHandlerFoundException ex) {
