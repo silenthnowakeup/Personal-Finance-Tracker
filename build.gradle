@@ -56,6 +56,5 @@ sonar {
         property "sonar.projectKey", "silenthnowakeup_Personal-Finance-Tracker"
         property "sonar.organization", "silenthnowakeup"
         property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
     }
 }
