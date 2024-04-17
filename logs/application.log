@@ -2675,3 +2675,75 @@ org.springframework.web.bind.MissingServletRequestParameterException: Required r
 2024-04-18 01:52:29.732 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-04-18 01:52:29.734 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-04-18 01:52:29.737 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:28:36.010 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 21511 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:28:36.011 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:28:36.678 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:28:36.727 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:28:37.271 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:28:37.339 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:28:37.375 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:28:37.620 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:28:37.651 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:28:38.004 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60ce75d0
+2024-04-18 02:28:38.005 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:28:38.045 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:28:39.028 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:28:39.088 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:28:39.308 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:28:39.862 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:28:40.369 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.69 seconds (process running for 5.888)
+2024-04-18 02:28:41.007 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:28:41.029 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:28:41.033 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:28:41.037 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:28:41.053 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:28:41.056 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:28:41.064 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:31:14.788 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 22259 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:31:14.790 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:31:15.442 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:31:15.491 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:31:16.034 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:31:16.090 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:31:16.128 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:31:16.346 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:31:16.373 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:31:16.685 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5bab61e7
+2024-04-18 02:31:16.686 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:31:16.718 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:31:17.664 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:31:17.724 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:31:17.955 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:31:18.520 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:31:19.030 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.566 seconds (process running for 5.718)
+2024-04-18 02:31:19.653 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:31:19.673 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:31:19.676 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:31:19.680 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:31:19.694 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:31:19.697 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:31:19.704 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:33:38.889 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 22737 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:33:38.896 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:33:39.570 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:33:39.618 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:33:40.171 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:33:40.230 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:33:40.265 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:33:40.493 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:33:40.520 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:33:40.848 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7dbb24a6
+2024-04-18 02:33:40.849 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:33:40.884 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:33:41.877 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:33:41.938 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:33:42.162 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:33:42.780 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:33:43.311 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.759 seconds (process running for 5.933)
+2024-04-18 02:33:44.005 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:33:44.028 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:33:44.032 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:33:44.036 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:33:44.054 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:33:44.058 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:33:44.066 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
