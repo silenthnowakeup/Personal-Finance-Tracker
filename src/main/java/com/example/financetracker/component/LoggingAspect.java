@@ -12,17 +12,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggingAspect {
 
-    private static final Logger logger = LoggerFactory.getLogger(LoggingAspect.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(LoggingAspect.class);
 
     @Before("execution(* com.example.financetracker.service.TrackerService.*(..))")
     public void logServiceMethodCall(JoinPoint joinPoint) {
         String methodName = joinPoint.getSignature().getName();
-        logger.info("Method {} called.", methodName);
+        LOGGER.info("Method {} called.", methodName);
     }
 
     @AfterThrowing(pointcut = "execution(* com.example.financetracker.service.TrackerService.*(..))", throwing = "ex")
     public void logServiceMethodException(JoinPoint joinPoint, Exception ex) {
         String methodName = joinPoint.getSignature().getName();
-        logger.error("Exception in method {}: {}", methodName, ex.getMessage());
+        LOGGER.error("Exception in method {}: {}", methodName, ex.getMessage());
     }
 }

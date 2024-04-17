@@ -109,5 +109,3 @@ public class TrackerController {
     public void deleteUser(@PathVariable Long id) {
         trackerService.deleteUser(id); }
     }
-
-
