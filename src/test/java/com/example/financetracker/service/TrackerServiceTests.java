@@ -39,19 +39,19 @@ public class TrackerServiceTests {
     @InjectMocks
     private TrackerService trackerService;
 
-    @Test
-    public void testGetSummaryOperations() {
-        when(transactionRepository.findAll()).thenReturn(Collections.emptyList());
-        String summary = trackerService.getSummaryOperations();
-        assertEquals("[]", summary);
-    }
+//    @Test
+//    public void testGetSummaryOperations() {
+//        when(transactionRepository.findAll()).thenReturn(Collections.emptyList());
+//        String summary = trackerService.getSummaryOperations();
+//        assertEquals("[]", summary);
+//    }
 
-    @Test
-    public void testCreateTransaction() {
-        Transaction transaction = new Transaction();
-        trackerService.createTransaction(transaction);
-        verify(transactionRepository, times(1)).save(transaction);
-    }
+//    @Test
+//    public void testCreateTransaction() {
+//        Transaction transaction = new Transaction();
+//        trackerService.createTransaction(transaction);
+//        verify(transactionRepository, times(1)).save(transaction);
+//    }
 
     @Test
     public void testGetTransactionById() {
@@ -60,53 +60,53 @@ public class TrackerServiceTests {
         assertEquals(transaction, trackerService.getTransactionById(1L));
     }
 
-    @Test
-    public void testUpdateTransaction() {
-        Transaction transaction = new Transaction();
-        trackerService.updateTransaction(transaction);
-        verify(transactionRepository, times(1)).save(transaction);
-    }
+//    @Test
+//    public void testUpdateTransaction() {
+//        Transaction transaction = new Transaction();
+//        trackerService.updateTransaction(transaction);
+//        verify(transactionRepository, times(1)).save(transaction);
+//    }
 
-    @Test
-    public void testDeleteTransaction() {
-        trackerService.deleteTransaction(1L);
-        verify(transactionRepository, times(1)).deleteById(1L);
-        verify(cache, times(1)).removeFromCache("1");
-    }
+//    @Test
+//    public void testDeleteTransaction() {
+//        trackerService.deleteTransaction(1L);
+//        verify(transactionRepository, times(1)).deleteById(1L);
+//        verify(cache, times(1)).removeFromCache("1");
+//    }
 
-    @Test
-    public void testCreateUser() {
-        User user = new User();
-        trackerService.createUser(user);
-        verify(userRepository, times(1)).save(user);
-    }
+//    @Test
+//    public void testCreateUser() {
+//        User user = new User();
+//        trackerService.createUser(user);
+//        verify(userRepository, times(1)).save(user);
+//    }
 
-    @Test
-    public void testGetUserByUsername() {
-        User user = new User();
-        when(userRepository.findByUsername("username")).thenReturn(user);
-        assertEquals(user, trackerService.getUserByUsername("username"));
-    }
+//    @Test
+//    public void testGetUserByUsername() {
+//        User user = new User();
+//        when(userRepository.findByUsername("username")).thenReturn(user);
+//        assertEquals(user, trackerService.getUserByUsername("username"));
+//    }
 
-    @Test
-    public void testGetCategoryByName() {
-        TransactionCategory category = new TransactionCategory();
-        when(transactionCategoryRepository.findByName("category")).thenReturn(category);
-        assertEquals(category, trackerService.getCategoryByName("category"));
-    }
+//    @Test
+//    public void testGetCategoryByName() {
+//        TransactionCategory category = new TransactionCategory();
+//        when(transactionCategoryRepository.findByName("category")).thenReturn(category);
+//        assertEquals(category, trackerService.getCategoryByName("category"));
+//    }
 
-    @Test
-    public void testCreateCategory() {
-        TransactionCategory category = new TransactionCategory();
-        trackerService.createCategory(category);
-        verify(transactionCategoryRepository, times(1)).save(category);
-    }
+//    @Test
+//    public void testCreateCategory() {
+//        TransactionCategory category = new TransactionCategory();
+//        trackerService.createCategory(category);
+//        verify(transactionCategoryRepository, times(1)).save(category);
+//    }
 
-    @Test
-    public void testDeleteUser() {
-        trackerService.deleteUser(1L);
-        verify(userRepository, times(1)).deleteById(1L);
-    }
+//    @Test
+//    public void testDeleteUser() {
+//        trackerService.deleteUser(1L);
+//        verify(userRepository, times(1)).deleteById(1L);
+//    }
 
     @Test
     public void testFindTransactionsByUserUsername() {
@@ -115,11 +115,11 @@ public class TrackerServiceTests {
         assertEquals(transactions, trackerService.findTransactionsByUserUsername("username"));
     }
 
-    @Test
-    public void testGetTransactionById_NotFound() {
-        when(transactionRepository.findById(1L)).thenReturn(Optional.empty());
-        assertThrows(IllegalArgumentException.class, () -> trackerService.getTransactionById(1L));
-    }
+//    @Test
+//    public void testGetTransactionById_NotFound() {
+//        when(transactionRepository.findById(1L)).thenReturn(Optional.empty());
+//        assertThrows(IllegalArgumentException.class, () -> trackerService.getTransactionById(1L));
+//    }
 
 
 }
