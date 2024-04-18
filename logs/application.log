@@ -2747,3 +2747,1306 @@ org.springframework.web.bind.MissingServletRequestParameterException: Required r
 2024-04-18 02:33:44.054 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-04-18 02:33:44.058 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-04-18 02:33:44.066 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:47:43.419 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 24827 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:47:43.420 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:47:44.102 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:47:44.152 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:47:44.673 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:47:44.727 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:47:44.758 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:47:45.004 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:47:45.039 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:47:45.393 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b772e2b
+2024-04-18 02:47:45.395 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:47:45.435 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:47:46.471 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:47:46.530 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:47:46.776 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:47:47.388 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:47:47.909 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.821 seconds (process running for 6.001)
+2024-04-18 02:47:48.747 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:47:48.756 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:47:48.758 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:47:48.762 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:47:48.779 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:47:48.782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:47:48.791 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:51:20.700 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 25257 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:51:20.702 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:51:21.435 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:51:21.481 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:51:22.007 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:51:22.061 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:51:22.093 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:51:22.198 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:51:22.224 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:51:22.545 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47bea04a
+2024-04-18 02:51:22.546 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:51:22.583 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:51:23.443 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:51:23.502 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:51:23.729 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:51:24.280 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:51:24.797 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.435 seconds (process running for 6.646)
+2024-04-18 02:51:24.893 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:51:24.898 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:51:24.899 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:51:24.901 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:51:24.909 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:51:24.911 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:51:24.916 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:52:46.265 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 26070 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:52:46.267 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:52:46.894 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:52:46.948 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:52:47.559 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:52:47.616 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:52:47.652 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:52:47.885 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:52:47.917 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:52:48.314 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5bcafda3
+2024-04-18 02:52:48.316 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:52:48.353 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:52:49.354 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:52:49.414 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:52:49.628 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:52:50.211 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:52:50.736 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.782 seconds (process running for 5.967)
+2024-04-18 02:52:51.512 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:52:51.521 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:52:51.522 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:52:51.525 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:52:51.538 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:52:51.540 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:52:51.547 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:56:05.169 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 26768 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:56:05.171 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:56:05.824 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:56:05.871 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:56:06.390 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:56:06.442 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:56:06.477 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:56:06.690 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:56:06.715 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:56:07.041 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a5ecb62
+2024-04-18 02:56:07.043 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:56:07.074 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:56:07.982 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:56:08.043 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:56:08.251 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:56:08.810 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:56:09.316 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.47 seconds (process running for 5.646)
+2024-04-18 02:56:10.093 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:56:10.101 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:56:10.103 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:56:10.106 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:56:10.112 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 02:56:10.127 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 02:56:10.431 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 02:56:10.438 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@1445fca9
+2024-04-18 02:56:10.447 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 02:56:10.447 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 02:56:10.454 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@1bdcad47
+2024-04-18 02:56:10.460 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 02:56:10.467 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 02:56:10.473 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@7d1558a3
+2024-04-18 02:56:10.480 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@92f66c2
+2024-04-18 02:56:10.485 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 02:56:10.497 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 02:56:10.497 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 02:56:10.498 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 02:56:10.508 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:56:10.511 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:56:10.517 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 02:57:59.408 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 27711 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 02:57:59.409 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 02:58:00.680 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 02:58:00.768 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2024-04-18 02:58:01.786 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 02:58:01.921 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 02:58:01.994 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 02:58:02.454 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 02:58:02.513 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 02:58:03.132 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28f6bf78
+2024-04-18 02:58:03.134 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 02:58:03.204 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 02:58:05.048 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 02:58:05.137 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:58:05.550 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 02:58:06.677 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 02:58:07.549 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.819 seconds (process running for 10.999)
+2024-04-18 02:58:08.550 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 02:58:08.562 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 02:58:08.563 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 02:58:08.567 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 02:58:08.571 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 02:58:08.581 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 02:58:08.913 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 02:58:08.920 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@464bf31a
+2024-04-18 02:58:08.928 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 02:58:08.928 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 02:58:08.934 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@61f84fa5
+2024-04-18 02:58:08.941 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 02:58:08.951 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 02:58:08.959 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@801fb52
+2024-04-18 02:58:08.968 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@1331c908
+2024-04-18 02:58:08.977 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 02:58:08.991 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 02:58:08.992 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 02:58:08.992 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 02:58:09.005 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 02:58:09.007 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 02:58:09.012 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:00:29.190 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 28117 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:00:29.192 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:00:30.368 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:00:30.447 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:00:31.445 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:00:31.591 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:00:31.668 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:00:32.173 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:00:32.245 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:00:32.940 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ebad920
+2024-04-18 03:00:32.943 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:00:33.027 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:00:34.939 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:00:35.026 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:00:35.402 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:00:36.517 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:00:37.351 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.806 seconds (process running for 11.047)
+2024-04-18 03:00:38.395 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:00:38.407 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:00:38.409 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:00:38.412 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:00:38.417 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:00:38.430 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:00:38.817 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:00:38.823 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@13b18261
+2024-04-18 03:00:38.832 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:00:38.832 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:00:38.838 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@575bbca1
+2024-04-18 03:00:38.845 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:00:38.852 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:00:38.858 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@4f5622c5
+2024-04-18 03:00:38.866 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@57b6a208
+2024-04-18 03:00:38.872 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:00:38.883 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:00:38.884 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:00:38.884 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:00:38.896 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:00:38.899 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:00:38.904 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:02:22.895 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 28459 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:02:22.896 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:02:24.128 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:02:24.209 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:02:25.226 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:02:25.362 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:02:25.437 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:02:25.685 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:02:25.743 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:02:26.383 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@225d7b
+2024-04-18 03:02:26.385 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:02:26.463 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:02:28.215 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:02:28.311 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:02:28.693 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:02:29.790 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:02:30.636 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.342 seconds (process running for 12.113)
+2024-04-18 03:02:30.752 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:02:30.758 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:02:30.759 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:02:30.762 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:02:30.765 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:02:30.770 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:02:31.043 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:02:31.049 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@50fc7012
+2024-04-18 03:02:31.056 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:02:31.056 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:02:31.061 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@1e155ea3
+2024-04-18 03:02:31.067 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:02:31.073 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:02:31.078 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@693227fd
+2024-04-18 03:02:31.084 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@1d68c42a
+2024-04-18 03:02:31.089 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:02:31.103 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:02:31.104 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:02:31.104 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:02:31.113 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:02:31.115 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:02:31.119 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:09:51.137 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 29409 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:09:51.138 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:09:52.349 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:09:52.428 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:09:53.385 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:09:53.518 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:09:53.592 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:09:54.058 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:09:54.121 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:09:54.785 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@670a5189
+2024-04-18 03:09:54.788 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:09:54.865 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:09:56.668 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:09:56.757 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:09:57.127 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:09:58.225 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:09:59.056 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.557 seconds (process running for 10.721)
+2024-04-18 03:10:00.187 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:10:00.196 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:10:00.197 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:10:00.200 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:10:00.204 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:10:00.215 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:10:00.431 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:10:00.438 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@556a402b
+2024-04-18 03:10:00.446 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:10:00.446 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:10:00.453 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@38a5a990
+2024-04-18 03:10:00.459 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:10:00.465 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:10:00.471 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@7b705803
+2024-04-18 03:10:00.476 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@6373b3ee
+2024-04-18 03:10:00.482 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:10:00.495 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:10:00.495 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:10:00.495 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:10:00.508 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:10:00.510 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:10:00.515 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:18:57.653 [main] INFO  c.e.f.FinanceTrackerApplication - Starting FinanceTrackerApplication using Java 21.0.2 with PID 29949 (/home/silenth/IdeaProjects/Finance_Tracker/build/classes/java/main started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:18:57.655 [main] INFO  c.e.f.FinanceTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:18:58.056 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:18:58.088 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:18:58.435 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-04-18 03:18:58.441 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-18 03:18:58.443 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-18 03:18:58.443 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-18 03:18:58.474 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-18 03:18:58.475 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 793 ms
+2024-04-18 03:18:58.576 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:18:58.602 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:18:58.619 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:18:58.741 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:18:58.756 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:18:58.930 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5341641d
+2024-04-18 03:18:58.931 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:18:58.947 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:18:59.469 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:18:59.522 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:18:59.650 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:18:59.986 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:19:00.267 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-04-18 03:19:00.274 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-04-18 03:19:00.279 [main] INFO  c.e.f.FinanceTrackerApplication - Started FinanceTrackerApplication in 2.873 seconds (process running for 3.22)
+2024-04-18 03:21:35.946 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-18 03:21:35.946 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-18 03:21:35.947 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-18 03:21:36.004 [http-nio-8080-exec-1] INFO  c.e.f.component.LoggingAspect - Method createBulkTransactions called.
+2024-04-18 03:21:36.004 [http-nio-8080-exec-1] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@1e6ac856
+2024-04-18 03:21:36.042 [http-nio-8080-exec-1] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@72f9aa61
+2024-04-18 03:21:36.044 [http-nio-8080-exec-1] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@528172cb
+2024-04-18 03:32:44.263 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 31557 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:32:44.265 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:32:45.687 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:32:45.784 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:32:46.929 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:32:47.092 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:32:47.180 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:32:47.713 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:32:47.797 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:32:48.549 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a22a161
+2024-04-18 03:32:48.552 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:32:48.654 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:32:50.660 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:32:50.764 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:32:51.182 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:32:52.397 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:32:53.316 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 9.813 seconds (process running for 12.257)
+2024-04-18 03:32:54.533 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 03:32:54.533 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 03:32:54.540 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-04-18 03:32:55.581 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:32:55.591 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:32:55.593 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:32:55.596 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:32:55.599 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:32:55.608 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:32:55.791 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:32:55.797 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@3afca5ce
+2024-04-18 03:32:55.805 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:32:55.806 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:32:55.812 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@4259e484
+2024-04-18 03:32:55.819 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:32:55.827 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:32:55.833 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@709ee22d
+2024-04-18 03:32:55.840 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@6934b51
+2024-04-18 03:32:55.846 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:32:55.859 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:32:55.859 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:32:55.860 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:32:55.874 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:32:55.877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:32:55.881 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:34:54.893 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 32093 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:34:54.895 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:34:56.026 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:34:56.100 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:34:57.052 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:34:57.176 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:34:57.256 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:34:57.728 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:34:57.791 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:34:58.425 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@645eb3e
+2024-04-18 03:34:58.428 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:34:58.515 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:35:00.339 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:35:00.431 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:35:00.800 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:35:01.891 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:35:02.709 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.513 seconds (process running for 10.738)
+2024-04-18 03:35:03.568 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:35:03.592 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:35:03.594 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:35:03.598 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:35:03.608 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:35:03.619 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:35:04.022 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:35:04.031 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@4c959621
+2024-04-18 03:35:04.057 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:35:04.057 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:35:04.064 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@6524d1b0
+2024-04-18 03:35:04.071 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:35:04.079 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:35:04.085 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@2c6b0e48
+2024-04-18 03:35:04.092 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@3697064c
+2024-04-18 03:35:04.098 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:35:04.110 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:35:04.110 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:35:04.111 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:35:04.124 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:35:04.126 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:35:04.132 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:35:38.145 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 32435 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:35:38.147 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:35:39.337 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:35:39.410 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:35:40.362 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:35:40.507 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:35:40.584 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:35:41.095 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:35:41.164 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:35:41.805 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e60f68b
+2024-04-18 03:35:41.807 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:35:41.891 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:35:43.885 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:35:43.990 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:35:44.392 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:35:45.602 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:35:46.485 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 9.014 seconds (process running for 11.486)
+2024-04-18 03:35:47.342 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:35:47.363 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:35:47.365 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:35:47.368 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:35:47.377 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:35:47.388 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:35:47.798 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:35:47.812 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@572915f6
+2024-04-18 03:35:47.855 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:35:47.856 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:35:47.864 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@7ffb99aa
+2024-04-18 03:35:47.871 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:35:47.878 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:35:47.885 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@5ae8f2ad
+2024-04-18 03:35:47.891 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@680029c5
+2024-04-18 03:35:47.897 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:35:47.910 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:35:47.910 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:35:47.910 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:35:47.923 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:35:47.925 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:35:47.930 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:36:35.226 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 33010 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:36:35.227 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:36:36.444 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:36:36.527 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:36:37.501 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:36:37.641 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:36:37.712 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:36:38.202 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:36:38.273 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:36:38.974 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f470874
+2024-04-18 03:36:38.977 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:36:39.061 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:36:40.873 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:36:40.967 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:36:41.327 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:36:42.424 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:36:43.256 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.655 seconds (process running for 10.833)
+2024-04-18 03:36:44.093 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:36:44.116 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:36:44.118 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:36:44.122 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:36:44.131 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:36:44.144 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:36:44.543 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:36:44.552 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@569ec352
+2024-04-18 03:36:44.575 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:36:44.576 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:36:44.584 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@4329b4c6
+2024-04-18 03:36:44.591 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:36:44.599 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:36:44.607 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@5661e536
+2024-04-18 03:36:44.615 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@56f1aa46
+2024-04-18 03:36:44.622 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:36:44.636 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:36:44.637 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:36:44.637 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:36:44.650 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:36:44.652 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:36:44.656 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:37:07.345 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:37:07.346 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:37:07.350 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:38:21.668 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 33423 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:38:21.670 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:38:22.860 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:38:22.931 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:38:23.860 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:38:23.979 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:38:24.063 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:38:24.539 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:38:24.605 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:38:25.261 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e08f0a5
+2024-04-18 03:38:25.264 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:38:25.343 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:38:27.181 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:38:27.261 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:38:27.629 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:38:28.740 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:38:29.608 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.651 seconds (process running for 10.916)
+2024-04-18 03:38:30.403 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:38:30.435 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:38:30.438 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:38:30.443 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:38:30.462 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:38:30.477 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:38:30.861 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:38:30.870 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@2e91ea15
+2024-04-18 03:38:30.891 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:38:30.891 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:38:30.898 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@51929cf1
+2024-04-18 03:38:30.906 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:38:30.915 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:38:30.922 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@5c2ab775
+2024-04-18 03:38:30.930 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@5a87313b
+2024-04-18 03:38:30.938 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:38:30.953 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:38:30.954 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:38:30.954 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:38:30.971 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:38:30.974 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:38:30.982 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:38:44.541 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 33776 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:38:44.542 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:38:45.227 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:38:45.277 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:38:45.830 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:38:45.883 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:38:45.920 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:38:46.153 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:38:46.183 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:38:46.507 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47fc346e
+2024-04-18 03:38:46.509 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:38:46.543 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:38:47.504 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:38:47.565 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:38:47.785 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:38:48.367 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:38:48.885 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.672 seconds (process running for 5.912)
+2024-04-18 03:38:49.507 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:38:49.527 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:38:49.531 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:38:49.536 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:38:49.558 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:38:49.579 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:38:49.950 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:38:49.961 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@66d258cc
+2024-04-18 03:38:49.982 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:38:49.983 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:38:49.992 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@208350a7
+2024-04-18 03:38:50.002 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:38:50.012 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:38:50.022 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@6bf9964a
+2024-04-18 03:38:50.030 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@3c94590e
+2024-04-18 03:38:50.037 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:38:50.050 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:38:50.050 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:38:50.050 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:38:50.062 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:38:50.065 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:38:50.072 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:42:34.938 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 34524 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:42:34.940 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:42:35.629 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:42:35.685 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:42:36.265 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:42:36.323 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:42:36.361 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:42:36.632 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:42:36.665 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:42:37.010 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@abc771e
+2024-04-18 03:42:37.012 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:42:37.048 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:42:38.006 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:42:38.063 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:42:38.284 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:42:38.906 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:42:39.463 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 4.845 seconds (process running for 6.025)
+2024-04-18 03:42:40.091 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:42:40.113 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:42:40.117 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:42:40.123 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:42:40.138 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:42:40.162 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:42:40.538 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:42:40.548 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@19a216c6
+2024-04-18 03:42:40.563 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:42:40.563 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:42:40.570 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@ca94ce0
+2024-04-18 03:42:40.577 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:42:40.584 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:42:40.590 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@4af0b765
+2024-04-18 03:42:40.598 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@7fea8b42
+2024-04-18 03:42:40.604 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:42:40.616 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:42:40.617 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:42:40.617 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:42:40.633 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:42:40.636 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:42:40.656 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:43:14.852 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 34947 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:43:14.854 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:43:16.046 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:43:16.133 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:43:17.107 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:43:17.235 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:43:17.307 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:43:17.762 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:43:17.824 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:43:18.460 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6097aa33
+2024-04-18 03:43:18.462 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:43:18.529 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:43:20.261 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:43:20.350 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:43:20.723 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:43:21.808 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:43:22.642 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.418 seconds (process running for 10.649)
+2024-04-18 03:43:23.676 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 03:43:23.676 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 03:43:23.678 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-04-18 03:43:24.229 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:43:24.236 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:43:24.238 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:43:24.241 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:43:24.245 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:43:24.253 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:43:24.426 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:43:24.433 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@5b64a6c
+2024-04-18 03:43:24.441 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:43:24.442 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:43:24.449 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@69cc74c9
+2024-04-18 03:43:24.455 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:43:24.462 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:43:24.469 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@4824f793
+2024-04-18 03:43:24.476 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@32663177
+2024-04-18 03:43:24.482 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:43:24.495 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:43:24.495 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:43:24.496 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:43:24.508 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:43:24.510 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:43:24.514 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:45:08.673 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 35430 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:45:08.675 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:45:09.842 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:45:09.919 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:45:10.868 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:45:11.004 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:45:11.076 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:45:11.554 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:45:11.619 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:45:12.267 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a686ab1
+2024-04-18 03:45:12.269 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:45:12.343 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:45:14.093 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:45:14.181 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:45:14.545 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:45:15.674 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:45:16.544 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.514 seconds (process running for 10.846)
+2024-04-18 03:45:17.497 [Test worker] INFO  c.e.f.component.LoggingAspect - Method testMethod called.
+2024-04-18 03:45:17.523 [Test worker] ERROR c.e.f.component.LoggingAspect - Exception in method testMethod: Test exception
+2024-04-18 03:45:17.814 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 03:45:17.814 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 03:45:17.815 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 03:45:18.344 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:45:18.351 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:45:18.352 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:45:18.355 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:45:18.358 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:45:18.367 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:45:18.547 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:45:18.553 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@4c247942
+2024-04-18 03:45:18.561 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:45:18.561 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:45:18.567 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@206c1f30
+2024-04-18 03:45:18.575 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:45:18.582 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:45:18.589 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@44649fa
+2024-04-18 03:45:18.595 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@74a8abe3
+2024-04-18 03:45:18.602 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:45:18.616 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:45:18.616 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:45:18.616 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:45:18.627 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:45:18.630 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:45:18.635 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:46:25.330 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 35839 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:46:25.331 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:46:26.559 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:46:26.638 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:46:27.571 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:46:27.693 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:46:27.777 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:46:28.011 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:46:28.068 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:46:28.737 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@326cfb5d
+2024-04-18 03:46:28.740 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:46:28.817 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:46:30.442 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:46:30.533 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:46:30.911 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:46:32.034 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:46:32.872 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.129 seconds (process running for 11.919)
+2024-04-18 03:46:33.218 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 03:46:33.218 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 03:46:33.224 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 03:46:33.777 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:46:33.784 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:46:33.785 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:46:33.788 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:46:33.791 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:46:33.799 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:46:33.972 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:46:33.978 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@3a16b14a
+2024-04-18 03:46:33.985 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:46:33.986 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:46:33.992 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@cf59d8e
+2024-04-18 03:46:33.998 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:46:34.004 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:46:34.011 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@1a13d71f
+2024-04-18 03:46:34.018 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@72688b7d
+2024-04-18 03:46:34.023 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:46:34.034 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:46:34.035 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:46:34.035 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:46:34.046 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:46:34.048 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:46:34.053 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:51:03.359 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 36520 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:51:03.361 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:51:04.589 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:51:04.670 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:51:05.653 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:51:05.778 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:51:05.860 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:51:06.322 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:51:06.379 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:51:07.052 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41b3db81
+2024-04-18 03:51:07.054 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:51:07.134 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:51:08.995 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:51:09.089 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:51:09.484 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:51:10.612 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:51:11.535 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.814 seconds (process running for 10.962)
+2024-04-18 03:51:12.680 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 03:51:12.680 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 03:51:12.682 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-04-18 03:51:13.411 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:51:13.419 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:51:13.420 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:51:13.423 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:51:13.427 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:51:13.435 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:51:13.602 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:51:13.608 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@4ab9550f
+2024-04-18 03:51:13.615 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:51:13.616 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:51:13.622 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@1eb4ce56
+2024-04-18 03:51:13.628 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:51:13.634 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:51:13.640 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@1f893861
+2024-04-18 03:51:13.646 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@17f85697
+2024-04-18 03:51:13.651 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:51:13.662 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:51:13.662 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:51:13.663 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:51:13.675 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:51:13.677 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:51:13.682 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:57:04.897 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 37311 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:57:04.899 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:57:06.172 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:57:06.254 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:57:07.183 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:57:07.305 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:57:07.384 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:57:07.844 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:57:07.905 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:57:08.575 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a936fe9
+2024-04-18 03:57:08.578 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:57:08.654 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:57:10.542 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:57:10.633 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:57:10.999 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:57:12.110 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:57:12.946 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.696 seconds (process running for 10.954)
+2024-04-18 03:57:14.018 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 03:57:14.018 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 03:57:14.020 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-04-18 03:57:14.605 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 03:57:14.612 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 03:57:14.614 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 03:57:14.617 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 03:57:14.620 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 03:57:14.628 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 03:57:14.805 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: null
+2024-04-18 03:57:14.832 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:57:14.839 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:57:14.850 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@7dfa9b3a
+2024-04-18 03:57:14.857 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 03:57:14.858 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 03:57:14.864 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@46e5959
+2024-04-18 03:57:14.871 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 03:57:14.879 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:57:14.887 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@4fba2be4
+2024-04-18 03:57:14.893 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@4aace1c1
+2024-04-18 03:57:14.899 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 03:57:14.905 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 03:57:14.917 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 03:57:14.923 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 03:57:14.923 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 03:57:14.923 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 03:57:14.935 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:57:14.937 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:57:14.942 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 03:58:06.462 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Starting TrackerServiceTests using Java 21.0.2 with PID 37678 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 03:58:06.464 [Test worker] INFO  c.e.f.service.TrackerServiceTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 03:58:07.743 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 03:58:07.826 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2024-04-18 03:58:08.759 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 03:58:08.884 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 03:58:08.963 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 03:58:09.406 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 03:58:09.466 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 03:58:10.126 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4065b09e
+2024-04-18 03:58:10.132 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 03:58:10.222 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 03:58:12.178 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 03:58:12.270 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:58:12.657 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 03:58:13.779 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 03:58:14.610 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Started TrackerServiceTests in 8.8 seconds (process running for 11.069)
+2024-04-18 03:58:15.632 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: null
+2024-04-18 03:58:15.760 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 03:58:15.762 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 03:58:15.768 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:02:31.961 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Starting TrackerServiceTests using Java 21.0.2 with PID 38344 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:02:31.963 [Test worker] INFO  c.e.f.service.TrackerServiceTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:02:33.287 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:02:33.379 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:02:34.495 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:02:34.646 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:02:34.728 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:02:35.233 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:02:35.300 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:02:35.978 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@759368fe
+2024-04-18 04:02:35.981 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:02:36.068 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:02:38.205 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:02:38.302 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:02:38.732 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:02:39.975 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:02:40.927 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Started TrackerServiceTests in 9.695 seconds (process running for 12.019)
+2024-04-18 04:02:42.068 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: null
+2024-04-18 04:02:42.235 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:02:42.238 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:02:42.245 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:03:29.173 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Starting TrackerServiceTests using Java 21.0.2 with PID 38709 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:03:29.175 [Test worker] INFO  c.e.f.service.TrackerServiceTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:03:30.466 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:03:30.544 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:03:31.490 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:03:31.613 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:03:31.689 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:03:32.152 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:03:32.232 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:03:32.919 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55e1a693
+2024-04-18 04:03:32.922 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:03:33.003 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:03:34.783 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:03:34.869 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:03:35.254 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:03:36.407 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:03:37.264 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Started TrackerServiceTests in 8.822 seconds (process running for 11.101)
+2024-04-18 04:03:38.276 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: null
+2024-04-18 04:03:38.389 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:03:38.391 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:03:38.396 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:04:47.435 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Starting TrackerServiceTests using Java 21.0.2 with PID 39070 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:04:47.437 [Test worker] INFO  c.e.f.service.TrackerServiceTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:04:48.611 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:04:48.691 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:04:49.654 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:04:49.782 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:04:49.868 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:04:50.339 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:04:50.403 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:04:51.055 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@424c7614
+2024-04-18 04:04:51.058 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:04:51.146 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:04:52.981 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:04:53.070 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:04:53.468 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:04:54.590 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:04:55.442 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Started TrackerServiceTests in 8.629 seconds (process running for 10.804)
+2024-04-18 04:04:56.482 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: null
+2024-04-18 04:04:56.608 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:04:56.628 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:04:56.640 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@599b31be
+2024-04-18 04:04:56.670 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:04:56.670 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:04:56.677 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@5dabcd52
+2024-04-18 04:04:56.685 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:04:56.692 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:04:56.699 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@145251c2
+2024-04-18 04:04:56.706 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@4c9ace1d
+2024-04-18 04:04:56.713 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:04:56.721 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:04:56.736 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:04:56.743 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:04:56.743 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:04:56.743 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:04:56.752 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.FinanceTrackerApplicationTests]: FinanceTrackerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:04:56.761 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.FinanceTrackerApplicationTests
+2024-04-18 04:04:56.938 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:04:56.938 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:04:56.939 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:04:57.577 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:04:57.585 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:04:57.587 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:04:57.589 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:04:57.600 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:04:57.602 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:04:57.607 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:06:56.376 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Starting TrackerServiceTests using Java 21.0.2 with PID 39526 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:06:56.378 [Test worker] INFO  c.e.f.service.TrackerServiceTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:06:57.775 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:06:57.873 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:06:59.037 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:06:59.226 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:06:59.320 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:06:59.835 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:06:59.908 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:07:00.643 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1eff08a7
+2024-04-18 04:07:00.646 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:07:00.732 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:07:02.672 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:07:02.775 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:07:03.158 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:07:04.314 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:07:05.236 [Test worker] INFO  c.e.f.service.TrackerServiceTests - Started TrackerServiceTests in 9.563 seconds (process running for 11.925)
+2024-04-18 04:07:06.430 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:07:06.471 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:07:06.490 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@5df8a2d8
+2024-04-18 04:07:06.522 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:07:06.522 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:07:06.530 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@32e5b486
+2024-04-18 04:07:06.538 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:07:06.547 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:07:06.554 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@69fdbb76
+2024-04-18 04:07:06.561 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@4be2e3b7
+2024-04-18 04:07:06.569 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:07:06.585 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:07:06.585 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:07:06.585 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:07:06.595 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.FinanceTrackerApplicationTests]: FinanceTrackerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:07:06.605 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.FinanceTrackerApplicationTests
+2024-04-18 04:07:06.825 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:07:06.825 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:07:06.827 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-04-18 04:07:07.679 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:07:07.690 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:07:07.691 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:07:07.694 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:07:07.706 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:07:07.709 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:07:07.714 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:10:42.153 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 40028 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:10:42.154 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:10:43.384 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:10:43.464 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:10:44.395 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:10:44.523 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:10:44.602 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:10:45.072 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:10:45.140 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:10:45.768 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b02305a
+2024-04-18 04:10:45.771 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:10:45.850 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:10:47.613 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:10:47.704 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:10:48.079 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:10:49.197 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:10:50.060 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.54 seconds (process running for 10.726)
+2024-04-18 04:10:51.127 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:10:51.128 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:10:51.130 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:10:51.672 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:10:51.672 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:10:51.672 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:10:51.733 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:10:51.733 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:10:51.733 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:10:51.833 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:10:51.841 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:10:51.843 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:10:51.846 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:10:51.849 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:10:51.858 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 04:10:52.062 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:10:52.069 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:10:52.076 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@51732fdc
+2024-04-18 04:10:52.083 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:10:52.084 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:10:52.090 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@1d806b41
+2024-04-18 04:10:52.097 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:10:52.105 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:10:52.112 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@636dcb57
+2024-04-18 04:10:52.119 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@2da920b5
+2024-04-18 04:10:52.125 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:10:52.138 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:10:52.138 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:10:52.138 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:10:52.151 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:10:52.154 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:10:52.159 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:14:19.406 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 40562 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:14:19.408 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:14:20.428 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:14:20.498 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:14:21.441 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:14:21.562 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:14:21.630 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:14:21.868 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:14:21.925 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:14:22.587 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a62e7cb
+2024-04-18 04:14:22.589 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:14:22.671 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:14:24.230 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:14:24.325 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:14:24.733 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:14:25.827 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:14:26.400 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 7.517 seconds (process running for 13.139)
+2024-04-18 04:14:26.425 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.component.LoggingAspectTest]: LoggingAspectTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:14:26.431 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.component.LoggingAspectTest
+2024-04-18 04:14:26.626 [Test worker] INFO  c.e.f.component.LoggingAspect - Method testMethod called.
+2024-04-18 04:14:26.648 [Test worker] ERROR c.e.f.component.LoggingAspect - Exception in method testMethod: Test exception
+2024-04-18 04:14:26.710 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:14:26.716 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:14:26.718 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:14:26.720 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:14:26.722 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:14:26.725 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 04:14:26.880 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:14:26.885 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:14:26.891 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@7dd0d6df
+2024-04-18 04:14:26.896 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:14:26.896 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:14:26.901 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@7dfc77ea
+2024-04-18 04:14:26.907 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:14:26.913 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:14:26.919 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@459a1536
+2024-04-18 04:14:26.926 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@934633e
+2024-04-18 04:14:26.932 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:14:26.945 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:14:26.945 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:14:26.945 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:14:26.957 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:14:26.959 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:14:26.965 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:15:41.781 [Test worker] INFO  c.e.f.component.LoggingAspectTest - Starting LoggingAspectTest using Java 21.0.2 with PID 40990 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:15:41.783 [Test worker] INFO  c.e.f.component.LoggingAspectTest - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:15:42.972 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:15:43.057 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:15:43.985 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:15:44.114 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:15:44.185 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:15:44.642 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:15:44.708 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:15:45.347 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39281a72
+2024-04-18 04:15:45.350 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:15:45.417 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:15:47.132 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:15:47.219 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:15:47.598 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:15:48.779 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:15:49.667 [Test worker] INFO  c.e.f.component.LoggingAspectTest - Started LoggingAspectTest in 8.509 seconds (process running for 10.658)
+2024-04-18 04:15:50.561 [Test worker] INFO  c.e.f.component.LoggingAspect - Method testMethod called.
+2024-04-18 04:15:50.599 [Test worker] ERROR c.e.f.component.LoggingAspect - Exception in method testMethod: Test exception
+2024-04-18 04:15:50.605 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.FinanceTrackerApplicationTests]: FinanceTrackerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:15:50.609 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.FinanceTrackerApplicationTests
+2024-04-18 04:15:50.918 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:15:50.918 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:15:50.920 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-04-18 04:15:51.434 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:15:51.434 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:15:51.434 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:15:51.512 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:15:51.519 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:15:51.520 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:15:51.523 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:15:51.526 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:15:51.533 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 04:15:51.709 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:15:51.716 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:15:51.722 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@9264569
+2024-04-18 04:15:51.728 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:15:51.728 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:15:51.734 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@46491a16
+2024-04-18 04:15:51.740 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:15:51.746 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:15:51.752 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@1d7ef0a1
+2024-04-18 04:15:51.757 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@292948ce
+2024-04-18 04:15:51.763 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:15:51.775 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:15:51.775 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:15:51.775 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:15:51.786 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:15:51.788 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:15:51.793 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:17:32.948 [Test worker] INFO  c.e.f.component.LoggingAspectTest - Starting LoggingAspectTest using Java 21.0.2 with PID 41405 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:17:32.950 [Test worker] INFO  c.e.f.component.LoggingAspectTest - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:17:34.300 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:17:34.391 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:17:35.478 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:17:35.631 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:17:35.711 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:17:36.209 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:17:36.280 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:17:37.013 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cf71cd
+2024-04-18 04:17:37.018 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:17:37.114 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:17:39.198 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:17:39.296 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:17:39.721 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:17:40.942 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:17:41.871 [Test worker] INFO  c.e.f.component.LoggingAspectTest - Started LoggingAspectTest in 9.632 seconds (process running for 11.959)
+2024-04-18 04:17:42.853 [Test worker] INFO  c.e.f.component.LoggingAspect - Method testMethod called.
+2024-04-18 04:17:42.902 [Test worker] ERROR c.e.f.component.LoggingAspect - Exception in method testMethod: Test exception
+2024-04-18 04:17:42.926 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:17:42.928 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:17:42.933 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:23:10.854 [Test worker] INFO  c.e.f.component.LoggingAspectTest - Starting LoggingAspectTest using Java 21.0.2 with PID 42824 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:23:10.856 [Test worker] INFO  c.e.f.component.LoggingAspectTest - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:23:12.066 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:23:12.140 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:23:13.093 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:23:13.218 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:23:13.300 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:23:13.784 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:23:13.849 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:23:14.513 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7486014f
+2024-04-18 04:23:14.516 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:23:14.588 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:23:16.431 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:23:16.525 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:23:16.903 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:23:18.011 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:23:18.855 [Test worker] INFO  c.e.f.component.LoggingAspectTest - Started LoggingAspectTest in 8.621 seconds (process running for 10.93)
+2024-04-18 04:23:19.767 [Test worker] INFO  c.e.f.component.LoggingAspect - Method testMethod called.
+2024-04-18 04:23:19.807 [Test worker] ERROR c.e.f.component.LoggingAspect - Exception in method testMethod: Test exception
+2024-04-18 04:23:19.812 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.FinanceTrackerApplicationTests]: FinanceTrackerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:23:19.816 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.FinanceTrackerApplicationTests
+2024-04-18 04:23:20.109 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:23:20.109 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:23:20.111 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-04-18 04:23:20.554 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:23:20.554 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:23:20.554 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:23:20.637 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:23:20.644 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:23:20.645 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:23:20.648 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:23:20.651 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:23:20.657 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 04:23:20.839 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:23:20.847 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:23:20.854 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@41f45c6b
+2024-04-18 04:23:20.862 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:23:20.862 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:23:20.869 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@da50440
+2024-04-18 04:23:20.875 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:23:20.882 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:23:20.890 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@4ced8bd3
+2024-04-18 04:23:20.896 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@1d7ef0a1
+2024-04-18 04:23:20.903 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:23:20.915 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:23:20.916 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:23:20.916 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:23:20.937 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:23:20.939 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:23:20.948 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:23:40.841 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 43288 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:23:40.843 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:23:42.037 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:23:42.114 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:23:43.056 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:23:43.186 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:23:43.259 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:23:43.735 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:23:43.799 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:23:44.489 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e2e5b4
+2024-04-18 04:23:44.492 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:23:44.572 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:23:46.453 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:23:46.556 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:23:46.928 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:23:48.059 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:23:48.922 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.72 seconds (process running for 10.975)
+2024-04-18 04:23:49.523 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.component.LoggingAspectTest]: LoggingAspectTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:23:49.529 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.component.LoggingAspectTest
+2024-04-18 04:23:49.889 [Test worker] INFO  c.e.f.component.LoggingAspect - Method testMethod called.
+2024-04-18 04:23:49.922 [Test worker] ERROR c.e.f.component.LoggingAspect - Exception in method testMethod: Test exception
+2024-04-18 04:23:50.200 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:23:50.200 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:23:50.201 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:23:50.689 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:23:50.689 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:23:50.689 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:23:50.769 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:23:50.775 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:23:50.777 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:23:50.780 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:23:50.783 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:23:50.790 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 04:23:50.968 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:23:50.975 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:23:50.981 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@6f004d96
+2024-04-18 04:23:50.988 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:23:50.988 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:23:50.994 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@6805f0dd
+2024-04-18 04:23:51.000 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:23:51.007 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:23:51.013 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@7cb6ac04
+2024-04-18 04:23:51.018 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@58c3cf26
+2024-04-18 04:23:51.024 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:23:51.036 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:23:51.036 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:23:51.036 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:23:51.048 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:23:51.050 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:23:51.055 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:25:20.694 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 43973 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:25:20.696 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:25:21.986 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:25:22.067 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:25:23.027 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:25:23.150 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:25:23.220 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:25:23.661 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:25:23.721 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:25:24.372 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@645eb3e
+2024-04-18 04:25:24.375 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:25:24.454 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:25:26.293 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:25:26.381 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:25:26.776 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:25:27.894 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:25:28.751 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.686 seconds (process running for 10.977)
+2024-04-18 04:25:29.872 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:25:29.873 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:25:29.874 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:25:30.326 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:25:30.326 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:25:30.326 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:25:30.423 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:25:30.431 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:25:30.433 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:25:30.436 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:25:30.440 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:25:30.450 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 04:25:30.644 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:25:30.652 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:25:30.658 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@60d32b0f
+2024-04-18 04:25:30.664 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:25:30.665 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:25:30.671 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@709fd912
+2024-04-18 04:25:30.677 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:25:30.684 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:25:30.690 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@18c786e8
+2024-04-18 04:25:30.696 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@322945f8
+2024-04-18 04:25:30.702 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:25:30.714 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:25:30.715 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:25:30.715 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:25:30.727 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:25:30.729 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:25:30.733 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-18 04:28:12.564 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Starting FinanceTrackerApplicationTests using Java 21.0.2 with PID 44738 (started by silenth in /home/silenth/IdeaProjects/Finance_Tracker)
+2024-04-18 04:28:12.566 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-18 04:28:13.747 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-18 04:28:13.823 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2024-04-18 04:28:14.729 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-18 04:28:14.848 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-18 04:28:14.922 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-18 04:28:15.364 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-18 04:28:15.426 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-18 04:28:16.058 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b387b79
+2024-04-18 04:28:16.060 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-18 04:28:16.129 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-18 04:28:17.925 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-18 04:28:18.016 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:28:18.378 [Test worker] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-18 04:28:19.488 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-18 04:28:20.296 [Test worker] INFO  c.e.f.FinanceTrackerApplicationTests - Started FinanceTrackerApplicationTests in 8.372 seconds (process running for 10.56)
+2024-04-18 04:28:21.354 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:28:21.354 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:28:21.356 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:28:21.899 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-04-18 04:28:21.899 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-04-18 04:28:21.899 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-04-18 04:28:21.982 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 500 CODE
+2024-04-18 04:28:21.989 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 400 CODE
+2024-04-18 04:28:21.990 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 404 CODE
+2024-04-18 04:28:21.993 [Test worker] ERROR c.e.f.exceptions.ExceptionsHandler - ERROR, 405 CODE
+2024-04-18 04:28:21.996 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.financetracker.service.TrackerServiceTests]: TrackerServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-18 04:28:22.005 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.financetracker.FinanceTrackerApplication for test class com.example.financetracker.service.TrackerServiceTests
+2024-04-18 04:28:22.186 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:28:22.193 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving category by name: category
+2024-04-18 04:28:22.199 [Test worker] INFO  c.e.f.service.TrackerService - Updating transaction: com.example.financetracker.models.Transaction@6e18f0a8
+2024-04-18 04:28:22.206 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 not found in cache, retrieving from database
+2024-04-18 04:28:22.207 [Test worker] INFO  c.e.f.service.TrackerService - Transaction 1 retrieved from database, adding to cache
+2024-04-18 04:28:22.212 [Test worker] INFO  c.e.f.service.TrackerService - Creating category: com.example.financetracker.models.TransactionCategory@20f07362
+2024-04-18 04:28:22.218 [Test worker] INFO  c.e.f.service.TrackerService - Deleting transaction with ID: 1
+2024-04-18 04:28:22.225 [Test worker] INFO  c.e.f.service.TrackerService - Retrieving user by username: username
+2024-04-18 04:28:22.231 [Test worker] INFO  c.e.f.service.TrackerService - Creating transaction: com.example.financetracker.models.Transaction@78aec076
+2024-04-18 04:28:22.236 [Test worker] INFO  c.e.f.service.TrackerService - Creating user: com.example.financetracker.models.User@525ba0fd
+2024-04-18 04:28:22.243 [Test worker] INFO  c.e.f.service.TrackerService - Deleting user with ID: 1
+2024-04-18 04:28:22.254 [Test worker] INFO  c.e.f.service.TrackerService - Finding transactions by user username: username
+2024-04-18 04:28:22.254 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username not found in cache, retrieving from database
+2024-04-18 04:28:22.255 [Test worker] INFO  c.e.f.service.TrackerService - Transactions by user username username retrieved from database, adding to cache
+2024-04-18 04:28:22.266 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-18 04:28:22.268 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-18 04:28:22.278 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

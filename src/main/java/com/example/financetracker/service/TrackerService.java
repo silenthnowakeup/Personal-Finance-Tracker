@@ -113,4 +113,9 @@ public class TrackerService {
         }
     }
 
+    public void createBulkTransactions(List<Transaction> transactions) {
+        transactions.forEach(this::createTransaction);
+    }
+
+
 }

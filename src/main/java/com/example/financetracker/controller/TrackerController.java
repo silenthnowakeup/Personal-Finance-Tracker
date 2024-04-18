@@ -4,10 +4,12 @@ import com.example.financetracker.models.TransactionCategory;
 import com.example.financetracker.models.User;
 import com.example.financetracker.service.TrackerService;
 import jakarta.persistence.EntityNotFoundException;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 public class TrackerController {
@@ -29,10 +31,10 @@ public class TrackerController {
     }
 
     @PostMapping("/transactions")
-    public void createTransaction(@RequestParam("description") String description,
-                                  @RequestParam("amount") double amount,
-                                  @RequestParam("username") String username,
-                                  @RequestParam("category") String categoryName) {
+    public ResponseEntity<Void> createTransaction(@RequestParam("description") String description,
+                                                  @RequestParam("amount") double amount,
+                                                  @RequestParam("username") String username,
+                                                  @RequestParam("category") String categoryName) {
         User user = trackerService.getUserByUsername(username);
 
         if (user != null) {
@@ -50,6 +52,7 @@ public class TrackerController {
             transaction.setCategory(category);
 
             trackerService.createTransaction(transaction);
+            return ResponseEntity.ok().build();
         } else {
             throw new EntityNotFoundException("User with username " + username + " not found");
         }
@@ -92,20 +95,46 @@ public class TrackerController {
     }
 
     @DeleteMapping("/transactions/{id}")
-    public void deleteTransaction(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteTransaction(@PathVariable Long id) {
         trackerService.deleteTransaction(id);
+        return ResponseEntity.ok().build();
     }
 
+
     @PostMapping("/users")
-    public void createUser(@RequestParam("username") String username,
-                           @RequestParam("email") String email) {
+    public ResponseEntity<Void> createUser(@RequestParam("username") String username,
+                                           @RequestParam("email") String email) {
         User user = new User();
         user.setUsername(username);
         user.setEmail(email);
         trackerService.createUser(user);
+        return ResponseEntity.ok().build();
     }
+
 
     @DeleteMapping("/users/{id}")
     public void deleteUser(@PathVariable Long id) {
         trackerService.deleteUser(id); }
+
+    @PostMapping("/transactions/bulk")
+    public ResponseEntity<Void> createBulkTransactions(@RequestBody List<Transaction> transactionDTOs) {
+        List<Transaction> transactions = transactionDTOs.stream()
+                .map(this::mapTransactionDTO)
+                .collect(Collectors.toList());
+
+        trackerService.createBulkTransactions(transactions);
+        return ResponseEntity.ok().build();
     }
+
+    private Transaction mapTransactionDTO(Transaction transactionDTO) {
+        Transaction transaction = new Transaction();
+        transaction.setDescription(transactionDTO.getDescription());
+        transaction.setAmount(transactionDTO.getAmount());
+        transaction.setCategory(transactionDTO.getCategory());
+        transaction.setUser(transactionDTO.getUser());
+        return transaction;
+    }
+
+    }
+
+
