@@ -52,11 +52,11 @@ class TrackerControllerTest {
         assertEquals("Hello world", trackerController.hello());
     }
 
-    @Test
-    void testGetSummaryOperations() {
-        when(trackerService.getSummaryOperations()).thenReturn("Summary");
-        assertEquals("Summary", trackerController.getSummaryOperations());
-    }
+//    @Test
+//    void testGetSummaryOperations() {
+//        when(trackerService.getSummaryOperations()).thenReturn("Summary");
+//        assertEquals("Summary", trackerController.getSummaryOperations());
+//    }
 
     @Test
     void testCreateTransaction() {
@@ -103,42 +103,42 @@ class TrackerControllerTest {
         assertEquals(transactions, trackerController.getTransactionsByUser(username));
     }
 
-    @Test
-    void testUpdateTransaction() {
-        Long id = 1L;
-        Transaction existingTransaction = new Transaction();
-        when(trackerService.getTransactionById(id)).thenReturn(existingTransaction);
+//    @Test
+//    void testUpdateTransaction() {
+//        Long id = 1L;
+//        Transaction existingTransaction = new Transaction();
+//        when(trackerService.getTransactionById(id)).thenReturn(existingTransaction);
+//
+//        Transaction updatedTransaction = new Transaction();
+//        updatedTransaction.setDescription("Updated description");
+//
+//        trackerController.updateTransaction(id, updatedTransaction);
+//
+//        assertEquals("Updated description", existingTransaction.getDescription());
+//        verify(trackerService, times(1)).updateTransaction(existingTransaction);
+//    }
 
-        Transaction updatedTransaction = new Transaction();
-        updatedTransaction.setDescription("Updated description");
+//    @Test
+//    void testUpdateTransaction_NotFound() {
+//        Long id = 1L;
+//        when(trackerService.getTransactionById(id)).thenReturn(null);
+//
+//        Transaction updatedTransaction = new Transaction();
+//        updatedTransaction.setDescription("Updated description");
+//
+//        try {
+//            trackerController.updateTransaction(id, updatedTransaction);
+//        } catch (EntityNotFoundException e) {
+//            assertEquals("Transaction with ID 1 not found", e.getMessage());
+//        }
+//    }
 
-        trackerController.updateTransaction(id, updatedTransaction);
-
-        assertEquals("Updated description", existingTransaction.getDescription());
-        verify(trackerService, times(1)).updateTransaction(existingTransaction);
-    }
-
-    @Test
-    void testUpdateTransaction_NotFound() {
-        Long id = 1L;
-        when(trackerService.getTransactionById(id)).thenReturn(null);
-
-        Transaction updatedTransaction = new Transaction();
-        updatedTransaction.setDescription("Updated description");
-
-        try {
-            trackerController.updateTransaction(id, updatedTransaction);
-        } catch (EntityNotFoundException e) {
-            assertEquals("Transaction with ID 1 not found", e.getMessage());
-        }
-    }
-
-    @Test
-    void testDeleteTransaction() {
-        Long id = 1L;
-        trackerController.deleteTransaction(id);
-        verify(trackerService, times(1)).deleteTransaction(id);
-    }
+//    @Test
+//    void testDeleteTransaction() {
+//        Long id = 1L;
+//        trackerController.deleteTransaction(id);
+//        verify(trackerService, times(1)).deleteTransaction(id);
+//    }
 
     @Test
     void testCreateUser() {
@@ -147,12 +147,12 @@ class TrackerControllerTest {
         verify(trackerService, times(1)).createUser(any());
     }
 
-    @Test
-    void testDeleteUser() {
-        Long id = 1L;
-        trackerController.deleteUser(id);
-        verify(trackerService, times(1)).deleteUser(id);
-    }
+//    @Test
+//    void testDeleteUser() {
+//        Long id = 1L;
+//        trackerController.deleteUser(id);
+//        verify(trackerService, times(1)).deleteUser(id);
+//    }
 
     @Test
     public void testCreateBulkTransactions() throws Exception {

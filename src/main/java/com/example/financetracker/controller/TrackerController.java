@@ -1,17 +1,20 @@
 package com.example.financetracker.controller;
+
 import com.example.financetracker.models.Transaction;
 import com.example.financetracker.models.TransactionCategory;
 import com.example.financetracker.models.User;
 import com.example.financetracker.service.TrackerService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
-@RestController
+@Controller
 public class TrackerController {
 
     private final TrackerService trackerService;
@@ -26,9 +29,10 @@ public class TrackerController {
     }
 
     @GetMapping("/summary")
-    public String getSummaryOperations() {
+    public List<Transaction> getSummaryOperations() {
         return trackerService.getSummaryOperations();
     }
+
 
     @PostMapping("/transactions")
     public ResponseEntity<Void> createTransaction(@RequestParam("description") String description,
@@ -68,39 +72,6 @@ public class TrackerController {
         return trackerService.findTransactionsByUserUsername(username);
     }
 
-    @PutMapping("/transactions/{id}")
-    public void updateTransaction(@PathVariable Long id, @RequestBody Transaction updatedTransaction) {
-        Transaction existingTransaction = trackerService.getTransactionById(id);
-        if (existingTransaction == null) {
-            throw new EntityNotFoundException("Transaction with ID " + id + " not found");
-        }
-
-        if (updatedTransaction.getDescription() != null) {
-            existingTransaction.setDescription(updatedTransaction.getDescription());
-        }
-
-        if (updatedTransaction.getAmount() != 0) {
-            existingTransaction.setAmount(updatedTransaction.getAmount());
-        }
-
-        if (updatedTransaction.getUser() != null) {
-            existingTransaction.setUser(updatedTransaction.getUser());
-        }
-
-        if (updatedTransaction.getCategory() != null) {
-            existingTransaction.setCategory(updatedTransaction.getCategory());
-        }
-
-        trackerService.updateTransaction(existingTransaction);
-    }
-
-    @DeleteMapping("/transactions/{id}")
-    public ResponseEntity<Void> deleteTransaction(@PathVariable Long id) {
-        trackerService.deleteTransaction(id);
-        return ResponseEntity.ok().build();
-    }
-
-
     @PostMapping("/users")
     public ResponseEntity<Void> createUser(@RequestParam("username") String username,
                                            @RequestParam("email") String email) {
@@ -111,30 +82,172 @@ public class TrackerController {
         return ResponseEntity.ok().build();
     }
 
-
-    @DeleteMapping("/users/{id}")
-    public void deleteUser(@PathVariable Long id) {
-        trackerService.deleteUser(id); }
-
-    @PostMapping("/transactions/bulk")
-    public ResponseEntity<Void> createBulkTransactions(@RequestBody List<Transaction> transactionDTOs) {
-        List<Transaction> transactions = transactionDTOs.stream()
-                .map(this::mapTransactionDTO)
+    @PostMapping("/users/bulk")
+    public ResponseEntity<Void> createUsers(@RequestBody List<User> userRequests) {
+        List<User> users = userRequests.stream()
+                .map(userRequest -> {
+                    User user = new User();
+                    user.setUsername(userRequest.getUsername());
+                    user.setEmail(userRequest.getEmail());
+                    return user;
+                })
                 .collect(Collectors.toList());
 
-        trackerService.createBulkTransactions(transactions);
+        trackerService.createUsers(users);
         return ResponseEntity.ok().build();
     }
 
-    private Transaction mapTransactionDTO(Transaction transactionDTO) {
-        Transaction transaction = new Transaction();
-        transaction.setDescription(transactionDTO.getDescription());
-        transaction.setAmount(transactionDTO.getAmount());
-        transaction.setCategory(transactionDTO.getCategory());
-        transaction.setUser(transactionDTO.getUser());
-        return transaction;
+    @GetMapping("/addTransaction")
+    public String showTransactionForm(Model model) {
+        model.addAttribute("categories", trackerService.getAllCategories());
+        model.addAttribute("users", trackerService.getAllUsers());
+        return "transaction_form";
     }
 
+    @PostMapping("/addTransaction")
+    public String addTransaction(@RequestParam("description") String description,
+                                 @RequestParam("amount") double amount,
+                                 @RequestParam("username") String username,
+                                 @RequestParam("category") String categoryName) {
+        User user = trackerService.getUserByUsername(username);
+
+        if (user != null) {
+            Transaction transaction = new Transaction();
+            transaction.setDescription(description);
+            transaction.setAmount(amount);
+            transaction.setUser(user);
+
+            TransactionCategory category = trackerService.getCategoryByName(categoryName);
+            if (category == null) {
+                category = new TransactionCategory();
+                category.setName(categoryName);
+                trackerService.createCategory(category);
+            }
+            transaction.setCategory(category);
+
+            trackerService.createTransaction(transaction);
+        } else {
+            throw new EntityNotFoundException("User with username " + username + " not found");
+        }
+
+        return "redirect:/addTransaction"; // Перенаправляем на главную страницу после добавления транзакции
+    }
+
+    @GetMapping("/addUser")
+    public String showUserForm() {
+        return "user_form";
+    }
+
+    @PostMapping("/addUser")
+    public String addUser(@RequestParam("username") String username,
+                          @RequestParam("email") String email) {
+        User user = new User();
+        user.setUsername(username);
+        user.setEmail(email);
+        trackerService.createUser(user);
+        return "redirect:/addUser"; // Перенаправляем на главную страницу после добавления пользователя
+    }
+
+    @DeleteMapping("/deleteTransaction/{id}")
+    public ResponseEntity<?> deleteTransaction(@PathVariable Long id) {
+        trackerService.deleteTransaction(id);
+        return ResponseEntity.ok().build();
     }
 
 
+    @PostMapping("/deleteUser/{id}")
+    public String deleteUser(@PathVariable Long id) {
+        trackerService.deleteUser(id);
+        return "redirect:/deleteUser"; // Перенаправляем на главную страницу после удаления пользователя
+    }
+
+
+    @GetMapping("/transactions")
+    public String showAllTransactions(Model model) {
+        List<Transaction> transactions = trackerService.getAllTransactions();
+        model.addAttribute("transactions", transactions);
+        return "transactions"; // Файл transactions.html должен быть создан
+    }
+
+    @GetMapping("/deleteTransaction")
+    public String showDeleteTransactionForm(Model model) {
+        List<Transaction> transactions = trackerService.getAllTransactions();
+        model.addAttribute("transactions", transactions);
+        return "delete_transaction_form";
+    }
+
+    @GetMapping("/deleteUser")
+    public String showDeleteUserForm(Model model) {
+        List<User> users = trackerService.getAllUsers();
+        model.addAttribute("users", users);
+        return "delete_user_form";
+    }
+
+    @GetMapping("/updateTransaction/{id}")
+    public String showUpdateTransactionForm(@PathVariable("id") Long id, Model model) {
+        Transaction transaction = trackerService.getTransactionById(id);
+        if (transaction == null) {
+            throw new EntityNotFoundException("Transaction with ID " + id + " not found");
+        }
+        model.addAttribute("transaction", transaction);
+        model.addAttribute("categories", trackerService.getAllCategories());
+        model.addAttribute("users", trackerService.getAllUsers());
+        return "update_transaction_form";
+    }
+
+    @PostMapping("/updateTransaction")
+    public String updateTransaction(@RequestParam("id") Long id,
+                                    @RequestParam("description") String description,
+                                    @RequestParam("amount") double amount,
+                                    @RequestParam("username") String username,
+                                    @RequestParam("category") String categoryName,
+                                    Model model) {
+        Transaction existingTransaction = trackerService.getTransactionById(id);
+        if (existingTransaction == null) {
+            throw new EntityNotFoundException("Transaction with ID " + id + " not found");
+        }
+
+        // Обновление описания
+        if (description != null && !description.isEmpty()) {
+            existingTransaction.setDescription(description);
+        }
+
+        // Обновление суммы
+        if (amount != 0) {
+            existingTransaction.setAmount(amount);
+        }
+
+        // Получение пользователя по имени пользователя
+        User user = trackerService.getUserByUsername(username);
+        if (user != null) {
+            existingTransaction.setUser(user);
+        } else {
+            // Если пользователя не существует, возможно, следует сгенерировать ошибку или выполнить другое действие
+        }
+
+        // Получение категории по имени категории
+        TransactionCategory category = trackerService.getCategoryByName(categoryName);
+        if (category != null) {
+            existingTransaction.setCategory(category);
+        } else {
+            // Если категория не существует, возможно, следует сгенерировать ошибку или выполнить другое действие
+        }
+
+        // Обновление транзакции в базе данных
+        trackerService.updateTransaction(existingTransaction);
+
+        // Обновление атрибута модели для обновленной транзакции
+        model.addAttribute("transaction", existingTransaction);
+
+        return "redirect:/transactions";
+    }
+
+
+
+
+
+
+
+
+
+}

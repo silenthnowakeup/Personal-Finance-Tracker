@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transactions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .add-button, .delete-button, .update-button, .add-user-button {
+      width: 150px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .add-button {
+      background-color: #4caf50;
+      color: #fff;
+    }
+    .delete-button, .update-button {
+      background-color: #f44336;
+      color: #fff;
+    }
+    .update-button {
+      background-color: #fdd835; /* Желтый цвет */
+    }
+    .add-button:hover, .delete-button:hover, .update-button:hover {
+      background-color: #45a049;
+    }
+    .add-user-button {
+      background-color: #2196f3;
+      color: #fff;
+    }
+    .add-user-button:hover {
+      background-color: #0d8bf0;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Transactions</h1>
+  <div class="button-container">
+    <a href="/deleteUser" class="delete-button">Delete User</a>
+    <a href="/addTransaction" class="add-button">Add Transaction</a>
+    <a href="/addUser" class="add-user-button">Add User</a>
+  </div>
+  <input type="text" id="searchInput" placeholder="Search by user name">
+  <table>
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Description</th>
+      <th>Amount</th>
+      <th>User</th>
+      <th>Category</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="transaction : ${transactions}" th:attr="data-id=${transaction.id}">
+      <td th:text="${transaction.id}">1</td>
+      <td th:text="${transaction.description}">Transaction 1</td>
+      <td th:text="${transaction.amount}">100</td>
+      <td th:text="${transaction.user.username}">User 1</td>
+      <td th:text="${transaction.category.name}">Category 1</td>
+      <td>
+        <a th:href="@{'/updateTransaction/' + ${transaction.id}}" class="update-button">Edit</a>
+        <button class="delete-button" onclick="deleteTransaction(${transaction.id})">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const tableRows = document.querySelectorAll('tbody tr');
+
+  searchInput.addEventListener('input', function() {
+    const searchValue = this.value.toLowerCase();
+
+    tableRows.forEach(function(row) {
+      const userName = row.querySelector('td:nth-child(4)').textContent.toLowerCase();
+
+      if (userName.includes(searchValue)) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+      }
+    });
+  });
+
+  function deleteTransaction(id) {
+    fetch(`/deleteTransaction/${id}`, {
+      method: 'DELETE'
+    })
+            .then(response => {
+              if (response.ok) {
+                const rowToDelete = document.querySelector(`tr[data-id="${id}"]`);
+                rowToDelete.remove();
+              } else {
+                alert('Failed to delete transaction.');
+              }
+            });
+  }
+  document.querySelector('tbody').addEventListener('click', function(event) {
+    if (event.target.classList.contains('delete-button')) {
+      const id = event.target.closest('tr').dataset.id;
+      deleteTransaction(id);
+    }
+  });
+</script>
+
+</body>
+</html>

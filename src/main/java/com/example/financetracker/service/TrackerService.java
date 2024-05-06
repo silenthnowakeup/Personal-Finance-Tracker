@@ -3,6 +3,7 @@ package com.example.financetracker.service;
 import com.example.financetracker.component.Cache;
 import com.example.financetracker.models.TransactionCategory;
 import com.example.financetracker.models.User;
+import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,12 @@ import com.example.financetracker.models.Transaction;
 import com.example.financetracker.repos.TransactionRepository;
 import com.example.financetracker.repos.TransactionCategoryRepository;
 import com.example.financetracker.repos.UserRepository;
+
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
+
+import java.util.List;
 
 import java.util.List;
 
@@ -35,8 +42,10 @@ public class TrackerService {
         this.cache = cache;
     }
 
-    public String getSummaryOperations() {
-        return transactionRepository.findAll().toString();
+
+    public List<Transaction> getSummaryOperations() {
+        return StreamSupport.stream(transactionRepository.findAll().spliterator(), false)
+                .collect(Collectors.toList());
     }
 
     public void createTransaction(Transaction transaction) {
@@ -116,6 +125,30 @@ public class TrackerService {
     public void createBulkTransactions(List<Transaction> transactions) {
         transactions.forEach(this::createTransaction);
     }
+
+    public void createUsers(List<User> users) {
+        userRepository.saveAll(users);
+    }
+
+    public User getUserById(Long id) {
+        LOGGER.info("Retrieving user by ID: {}", id);
+        return userRepository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("User with ID " + id + " not found"));
+    }
+
+    public List<TransactionCategory> getAllCategories() {
+        return transactionCategoryRepository.findAll();
+    }
+
+    public List<User> getAllUsers() {
+        return userRepository.findAll(); // Предположим, что у вас есть репозиторий для работы с пользователями
+    }
+
+    public List<Transaction> getAllTransactions() {
+        return StreamSupport.stream(transactionRepository.findAll().spliterator(), false)
+                .collect(Collectors.toList());
+    }
+
 
 
 }
