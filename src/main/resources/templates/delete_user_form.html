@@ -48,6 +48,11 @@
         button:hover {
             background-color: #d32f2f;
         }
+        .home-button {
+            margin-top: 20px;
+            display: block;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -66,6 +71,7 @@
             <span th:text="${user.id}">User ID</span>: <span th:text="${user.username}">Username</span>
         </li>
     </ul>
+    <a class="home-button" href="/transactions">Home</a>
 </div>
 <script>
     document.getElementById("deleteUserForm").addEventListener("submit", function(event) {

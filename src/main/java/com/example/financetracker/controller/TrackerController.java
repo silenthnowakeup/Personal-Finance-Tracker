@@ -207,47 +207,28 @@ public class TrackerController {
             throw new EntityNotFoundException("Transaction with ID " + id + " not found");
         }
 
-        // Обновление описания
         if (description != null && !description.isEmpty()) {
             existingTransaction.setDescription(description);
         }
 
-        // Обновление суммы
         if (amount != 0) {
             existingTransaction.setAmount(amount);
         }
 
-        // Получение пользователя по имени пользователя
         User user = trackerService.getUserByUsername(username);
         if (user != null) {
             existingTransaction.setUser(user);
         } else {
-            // Если пользователя не существует, возможно, следует сгенерировать ошибку или выполнить другое действие
         }
-
-        // Получение категории по имени категории
         TransactionCategory category = trackerService.getCategoryByName(categoryName);
         if (category != null) {
             existingTransaction.setCategory(category);
         } else {
-            // Если категория не существует, возможно, следует сгенерировать ошибку или выполнить другое действие
         }
-
-        // Обновление транзакции в базе данных
         trackerService.updateTransaction(existingTransaction);
-
-        // Обновление атрибута модели для обновленной транзакции
         model.addAttribute("transaction", existingTransaction);
-
         return "redirect:/transactions";
     }
-
-
-
-
-
-
-
 
 
 }

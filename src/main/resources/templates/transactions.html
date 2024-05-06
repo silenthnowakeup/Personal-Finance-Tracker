@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transactions</title>
+  <title>Finance Tracker</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,6 +11,7 @@
       padding: 0;
       background-color: #f4f4f4;
     }
+
     .container {
       max-width: 800px;
       margin: 0 auto;
@@ -18,30 +19,37 @@
       background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative; /* Для позиционирования ссылки */
     }
+
     h1 {
       color: #333;
       text-align: center;
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 20px;
     }
+
     th, td {
       padding: 8px;
       text-align: left;
       border-bottom: 1px solid #ddd;
     }
+
     th {
       background-color: #f2f2f2;
     }
+
     .button-container {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       margin-bottom: 20px;
     }
+
     .add-button, .delete-button, .update-button, .add-user-button {
       width: 150px;
       padding: 10px;
@@ -50,26 +58,40 @@
       cursor: pointer;
       text-decoration: none;
     }
+
     .add-button {
       background-color: #4caf50;
       color: #fff;
     }
+
     .delete-button, .update-button {
       background-color: #f44336;
       color: #fff;
     }
+
     .update-button {
       background-color: #fdd835; /* Желтый цвет */
     }
+
     .add-button:hover, .delete-button:hover, .update-button:hover {
       background-color: #45a049;
     }
+
     .add-user-button {
       background-color: #2196f3;
       color: #fff;
     }
+
     .add-user-button:hover {
       background-color: #0d8bf0;
+    }
+
+    .github-link {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #333;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -107,6 +129,7 @@
     </tr>
     </tbody>
   </table>
+  <a class="github-link" href="https://github.com/silenthnowakeup/Personal-Finance-Tracker">GitHub</a>
 </div>
 
 <script>
